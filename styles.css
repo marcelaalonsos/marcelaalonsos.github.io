@@ -1,6 +1,6 @@
 /* Global Styles */
 
-* {
+/* * {
   padding: 0;
   margin: 0;
   border: 0;
@@ -11,7 +11,7 @@
   font-size: inherit;
   box-shadow: none;
   box-sizing: border-box;
-}
+} */
 
 html {
   scroll-behavior: smooth;
