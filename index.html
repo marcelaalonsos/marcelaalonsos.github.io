@@ -1,8 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head> </head>
-  <body>
-    <h1>Marcela Alonso Website</h1>
-    <p>Testing...</p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/fa62c117c7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Marcela Alonso Dev</title>
+  </head>
+  <body class="light" id="top">
+    <header class="header center">
+      <h3>
+        <a href="https://marcelaalonsos.github.io/marcelaalonso" class="link"
+          >MA.</a
+        >
+      </h3>
+
+      <nav class="nav center">
+        <ul class="nav__list center">
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#projects">Projects</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#skills">Skills</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="about center">
+        <h1>
+          Hello World! I am <span class="about__name">Marcela Alonso</span>
+        </h1>
+        <h2 class="about__role">Full Stack Software Engineer</h2>
+        <img src="" alt="marcela alonso avatar" />
+        <p class="about__desc">
+          Agile Problem Solver. Grace Hopper Academy Grad. Former Architect. 10
+          years of experience taking ideas from initial concept to final
+          product, and looking to apply that into a software engineering role.
+          Enthusiastic team-player. Marathon Runner. Based in Brooklyn, NY
+          #nosleeptillBrooklyn
+        </p>
+        <div class="about__contact center">
+          <a href="">
+            <span class="btn btn--outline">Resume</span>
+          </a>
+          <a
+            href="https://github.com/marcelaalonsos"
+            aria-label="github"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/marcela-alonso-sandoval/"
+            aria-label="linkedin"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+      <section id="projects" class="section projects">
+        <h2 class="section__title">Projects</h2>
+        <div class="projects__grid">
+          <div class="project">
+            <h3>Toad's Garden</h3>
+            <p class="project__description">
+              An online, platformer arcade-style game based on Toad from Mario
+              Bros. Toad traverses through nature-inspired worlds collecting
+              tokens and avoiding colliding with wildlife enemies.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Phaser 3</li>
+              <li class="project__stack-item">Tiled Map</li>
+              <li class="project__stack-item">JavaScript</li>
+              <li class="project__stack-item">Webpack</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
