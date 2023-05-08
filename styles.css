@@ -343,7 +343,6 @@ main {
   justify-content: space-between;
   font-size: large;
   /* background-color: #d0ceba; */
-  height: fit-content;
   padding-bottom: 5em;
 }
 
