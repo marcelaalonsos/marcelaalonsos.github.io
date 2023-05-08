@@ -245,7 +245,7 @@ main {
 
 .about__contact {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-content: center;
 }
 
@@ -352,6 +352,7 @@ main {
   overflow: hidden;
   width: 95%;
   justify-content: space-between;
+  font-size: large;
 }
 
 .scroll-container {
