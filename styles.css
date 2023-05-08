@@ -187,6 +187,7 @@ button {
 
 img {
   align-items: center;
+  size: 50%;
 }
 
 .center {
@@ -234,6 +235,7 @@ main {
 .about__desc {
   font-size: 1rem;
   max-width: 600px;
+  align-content: center;
 }
 
 .about__desc,
