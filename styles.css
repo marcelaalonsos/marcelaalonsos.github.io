@@ -294,7 +294,6 @@ main {
 }
 
 .project__stack-item {
-  margin: 0.5em;
   font-weight: 500;
   font-size: 0.8rem;
   color: var(--clr-fg-alt);
@@ -343,10 +342,6 @@ main {
   transition: transform 0.2s ease-in-out;
 }
 
-.section {
-  margin-top: 4em;
-}
-
 .topnav {
   display: inline flex;
   flex-direction: row;
@@ -356,11 +351,6 @@ main {
   overflow: hidden;
   width: 95%;
   justify-content: space-between;
-}
-
-.footer {
-  padding: 2em;
-  margin-top: 3em;
 }
 
 .scroll-container {
