@@ -293,7 +293,7 @@ main {
 }
 
 .project__stack-item {
-  margin: 0.5em;
+  margin: 0.6em;
   font-weight: 500;
   font-size: 0.8rem;
   color: var(--clr-fg-alt);
@@ -351,6 +351,7 @@ main {
   width: 95%;
   justify-content: space-between;
   font-size: large;
+  background-color: #d0ceba;
   margin-bottom: 5em;
   padding-bottom: 5em;
 }
