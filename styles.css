@@ -226,7 +226,7 @@ main {
 
 .about {
   flex-direction: column;
-  margin-top: 3em;
+  margin-top: 5em;
 }
 
 .about__name {
@@ -299,6 +299,10 @@ main {
   color: var(--clr-fg-alt);
 }
 
+.project__stack-item-span {
+  width: 0.2em;
+}
+
 .project .link--icon {
   margin-left: 0.5em;
 }
@@ -350,6 +354,7 @@ main {
   width: 95%;
   justify-content: space-between;
   font-size: large;
+  padding: auto;
 }
 
 .scroll-container {
