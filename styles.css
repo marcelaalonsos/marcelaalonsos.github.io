@@ -337,7 +337,7 @@ main {
 .topnav {
   display: inline flex;
   flex-direction: row;
-  margin-left: 16em;
+  margin-left: 10em;
   position: absolute;
   width: 95%;
   justify-content: space-between;
@@ -346,7 +346,7 @@ main {
 }
 
 .separator {
-  height: 4em;
+  color: #d0ceba;
 }
 
 .scroll-container {
