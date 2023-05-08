@@ -293,7 +293,7 @@ main {
 }
 
 .project__stack-item {
-  margin: 1.2em 0;
+  margin: 1.2em;
   font-weight: 500;
   font-size: 0.8rem;
   color: var(--clr-fg-alt);
@@ -347,7 +347,6 @@ main {
   flex-direction: row;
   left: 15em;
   position: absolute;
-  background-color: var(--clr-bg);
   width: 95%;
   justify-content: space-between;
   font-size: large;
