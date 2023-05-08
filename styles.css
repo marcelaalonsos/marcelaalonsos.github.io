@@ -293,7 +293,7 @@ main {
 }
 
 .project__stack-item {
-  margin: 0.2em;
+  margin: 0.5em;
   font-weight: 500;
   font-size: 0.8rem;
   color: var(--clr-fg-alt);
@@ -346,12 +346,13 @@ main {
 .topnav {
   display: inline flex;
   flex-direction: row;
-  left: 15em;
+  left: 17em;
   position: absolute;
   width: 95%;
   justify-content: space-between;
   font-size: large;
-  margin-bottom: 3em;
+  margin-bottom: 5em;
+  padding-bottom: 5em;
 }
 
 .scroll-container {
