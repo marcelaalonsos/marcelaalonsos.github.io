@@ -218,7 +218,7 @@ main {
 
 .about {
   flex-direction: column;
-  margin-top: 10em;
+  margin-top: 5em;
 }
 
 .about__name {
@@ -235,11 +235,8 @@ main {
 }
 
 .about__contact {
-  display: flex;
   flex-direction: row;
-  align-items: center;
-  align-self: center;
-  align-content: center;
+  margin-top: 1em;
 }
 
 .about__desc,
@@ -339,7 +336,7 @@ main {
 .topnav {
   display: inline flex;
   flex-direction: row;
-  margin-left: 13em;
+  margin-left: 15em;
   position: absolute;
   width: 95%;
   justify-content: space-between;
