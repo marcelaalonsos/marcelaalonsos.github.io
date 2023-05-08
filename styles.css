@@ -227,6 +227,7 @@ main {
 .about {
   flex-direction: column;
   margin-top: 3em;
+  align-items: center;
 }
 
 .about__name {
