@@ -354,7 +354,7 @@ main {
   width: 95%;
   justify-content: space-between;
   font-size: large;
-  padding: 3em;
+  margin-bottom: 3em;
 }
 
 .scroll-container {
