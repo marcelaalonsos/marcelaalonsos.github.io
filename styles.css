@@ -237,6 +237,8 @@ main {
 .about__contact {
   display: flex;
   flex-direction: row;
+  align-items: center;
+  align-self: center;
   align-content: center;
 }
 
@@ -280,7 +282,7 @@ main {
 .project__stack {
   display: flex;
   flex-wrap: wrap;
-  justify-content: baseline;
+  justify-content: center;
   margin-top: 1em;
 }
 
@@ -345,7 +347,7 @@ main {
 }
 
 .separator {
-  color: #d0ceba;
+  color: var(--clr-bg);
 }
 
 .scroll-container {
