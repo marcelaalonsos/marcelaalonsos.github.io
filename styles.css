@@ -160,7 +160,7 @@ button {
 
 .btn--plain {
   text-transform: initial;
-  background-color: var(--clr-bg-alt);
+  background-color: var(--clr-bg);
   box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
   border: 0;
 }
@@ -184,6 +184,10 @@ button {
 }
 
 /* Layout */
+
+img {
+  align-items: center;
+}
 
 .center {
   display: flex;
@@ -212,20 +216,6 @@ main {
   text-align: center;
   margin-bottom: 1em;
   text-transform: uppercase;
-}
-
-.nav__list {
-  margin-right: 1.5em;
-  display: flex;
-}
-
-.nav__list-item {
-  margin-left: 1.5em;
-}
-
-.nav__hamburger {
-  display: none;
-  width: 1em;
 }
 
 .about {
@@ -345,7 +335,7 @@ main {
 }
 
 .nav__list {
-  flex-direction: column;
+  flex-direction: row;
   padding: 4em 0;
   position: absolute;
   right: 0;
@@ -355,19 +345,6 @@ main {
   width: 0;
   overflow: hidden;
   transition: width 0.2s ease-in-out;
-}
-
-.display-nav-list {
-  width: 100%;
-}
-
-.nav__list-item {
-  margin: 0.5em 0;
-}
-
-.nav__hamburger {
-  display: flex;
-  margin-left: 0.8em;
 }
 
 .about {
