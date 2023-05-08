@@ -337,7 +337,7 @@ main {
 .topnav {
   display: inline flex;
   flex-direction: row;
-  left: 16em;
+  margin-left: 16em;
   position: absolute;
   width: 95%;
   justify-content: space-between;
