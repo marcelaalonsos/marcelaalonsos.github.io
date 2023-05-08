@@ -293,7 +293,7 @@ main {
 }
 
 .project__stack-item {
-  margin: 1.2em;
+  margin: 0.2em;
   font-weight: 500;
   font-size: 0.8rem;
   color: var(--clr-fg-alt);
@@ -354,7 +354,7 @@ main {
   width: 95%;
   justify-content: space-between;
   font-size: large;
-  padding: auto;
+  padding: 3em;
 }
 
 .scroll-container {
