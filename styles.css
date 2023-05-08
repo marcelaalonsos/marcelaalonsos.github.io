@@ -189,8 +189,8 @@ button {
 
 /* Layout */
 
-img {
-  align-items: center;
+.avatar {
+  align-self: center;
   width: 50%;
   height: 50%;
 }
@@ -227,7 +227,7 @@ main {
 .about {
   flex-direction: column;
   margin-top: 3em;
-  align-items: center;
+  align-content: center;
 }
 
 .about__name {
