@@ -233,7 +233,13 @@ main {
 .about__desc {
   font-size: 1rem;
   max-width: 600px;
+  display: contents;
   align-items: center;
+}
+
+.about__contact {
+  display: contents;
+  align-content: center;
 }
 
 .about__desc,
