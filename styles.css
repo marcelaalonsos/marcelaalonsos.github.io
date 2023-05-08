@@ -237,7 +237,7 @@ main {
 .about__contact {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-content: center;
 }
 
 .about__desc,
@@ -342,7 +342,6 @@ main {
   width: 95%;
   justify-content: space-between;
   font-size: large;
-  background-color: #d0ceba;
 }
 
 .separator {
