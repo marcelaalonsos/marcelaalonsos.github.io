@@ -235,8 +235,10 @@ main {
 }
 
 .about__contact {
+  display: flex;
   flex-direction: row;
   margin-top: 1em;
+  align-items: center;
 }
 
 .about__desc,
