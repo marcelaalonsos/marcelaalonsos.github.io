@@ -280,8 +280,8 @@ main {
 .project__stack {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  margin: 1.2em 0;
+  justify-content: baseline;
+  margin-top: 1em;
 }
 
 .project__stack-item {
@@ -289,7 +289,6 @@ main {
   font-weight: 500;
   font-size: 0.8rem;
   color: var(--clr-fg-alt);
-  align-items: center;
 }
 
 .project .link--icon {
