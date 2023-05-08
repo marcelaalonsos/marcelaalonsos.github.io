@@ -345,6 +345,7 @@ main {
 .topnav {
   display: inline flex;
   flex-direction: row;
+  left: 15em;
   padding: 4em 0;
   position: absolute;
   background-color: var(--clr-bg);
