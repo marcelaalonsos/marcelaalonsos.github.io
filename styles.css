@@ -237,7 +237,7 @@ main {
 .about__contact {
   display: flex;
   flex-direction: row;
-  align-content: center;
+  align-items: center;
 }
 
 .about__desc,
