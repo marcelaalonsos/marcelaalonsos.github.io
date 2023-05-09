@@ -230,7 +230,7 @@ main {
 }
 
 .about__desc {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   max-width: 600px;
 }
 
@@ -238,6 +238,7 @@ main {
   display: flex;
   flex-direction: row;
   margin-top: 1em;
+  align-items: center;
   justify-content: center;
 }
 
