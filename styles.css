@@ -238,7 +238,7 @@ main {
   display: flex;
   flex-direction: row;
   margin-top: 1em;
-  align-items: center;
+  justify-content: center;
 }
 
 .about__desc,
