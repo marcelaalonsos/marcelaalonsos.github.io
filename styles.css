@@ -235,7 +235,7 @@ main {
 }
 
 .about__contact {
-  display: inline-flex;
+  display: flex;
   flex-direction: row;
   margin-top: 1em;
   align-items: center;
