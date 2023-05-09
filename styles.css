@@ -230,12 +230,12 @@ main {
 }
 
 .about__desc {
-  font-size: 1rem;
+  font-size: 2rem;
   max-width: 600px;
 }
 
 .about__contact {
-  display: flex;
+  display: inline-flex;
   flex-direction: row;
   margin-top: 1em;
   align-items: center;
@@ -281,7 +281,7 @@ main {
 .project__stack {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
   margin-top: 1em;
 }
 
